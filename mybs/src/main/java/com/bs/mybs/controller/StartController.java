@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StartController {
     @GetMapping("/springboot")
     public String startSpringBoot() {
+        System.out.println("");
         return "Welcome to the world of Spring Boot!";
     }
 }
